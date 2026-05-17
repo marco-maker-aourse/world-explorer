@@ -109,3 +109,21 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Deploy en GitHub Pages
+
+El proyecto ya incluye el workflow `.github/workflows/deploy.yml`.
+
+Pasos:
+
+1. En GitHub entra al repositorio `world-explorer`.
+2. Ve a `Settings > Pages`.
+3. En `Source`, selecciona `GitHub Actions`.
+4. Haz push a `main`.
+5. GitHub compilara y publicara la aplicacion automaticamente.
+
+La URL esperada sera:
+
+```text
+https://marco-maker-aourse.github.io/world-explorer/
+```
